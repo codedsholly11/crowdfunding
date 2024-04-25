@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+nav{
+    display: flex;
+    background-image: url(/images/image-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    padding: 30px;
+    justify-content: space-between;
+    position: relative;
+}
+ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 30px;
+}
+.ham{
+    display:none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+}
+.img1{
+    height: 20px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    gap: 20px;
+    width: 45%;
+    border-radius: 10px;
+    justify-content: center;
+    padding:20px;
+} 
+.one img{
+    height: 30px;
+}
+.but1{
+    padding:10px  ;
+    border:none ;
+    border-radius: 40px;
+    background-color: aqua;
+}
+.but2{
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    width: 9vw;
+    gap: 10px;
+}
+.but3{
+    border:none ;
+}
+.book img{
+    position: relative;
+    left: 23%;
+    top: 10px;
+}
+.mat{
+    display: flex;
+    gap: 80px;
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.img2{
+    position: relative;
+    bottom: 38px;
+}
+.cat{
+    display: flex;
+    gap: 50px;
+}
+.cat1{
+border-right: 1px solid gray;
+    padding-right: 10px;
+}
+.cat2{
+border-right: 1px solid gray;
+    padding-right: 10px;
+}
+.cat h3{
+    font-size: 24px;
+}
+.rat{
+    display: flex;
+    flex-direction:column ;
+    align-items: center; 
+    gap: 20px;
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    padding:20px;
+}
+.me h3{
+    font-size: 24px;
+}
+.mist{
+     display: flex;
+    flex-direction:column ;
+    align-items: center; 
+    gap: 20px;
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    padding:25px;
+}
+.bamboo{
+    display: flex;
+    flex-direction:column ;
+    align-items: center; 
+    gap: 15px;
+    width: 97%;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    padding:15px;
+}
+.bam{
+    display: flex;
+    gap: 200px;
+}
+.boo{
+    display: flex;
+    gap: 300px;
+}
+.boo button{
+    background-color:hsl(176, 50%, 47%) ;
+    border:none ;
+    border-radius: 25px;
+    color: white;
+    padding: 9px;
+}
+.ten{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.rose{
+    display: flex;
+    flex-direction:column ;
+    align-items: center; 
+    gap: 15px;
+    width: 97%;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    padding:15px;
+}
+.rose1{
+    display: flex;
+    gap: 150px;
+}
+.rose3{
+    display: flex;
+    gap: 300px;
+}
+.rose3 button{
+    background-color:hsl(176, 50%, 47%) ;
+    border:none ;
+    border-radius: 25px;
+    color: white;
+    padding: 9px;
+}
+.king{
+    display: flex;
+    flex-direction:column ;
+    align-items: center; 
+    gap: 15px;
+    width: 97%;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    padding:15px;
+}
+.king1{
+ display: flex;
+    gap: 100px;
+}
+.king3 button{
+background-color: hsl(0, 0%, 48%) ;
+    border:none ;
+    border-radius: 25px;
+    color: white;
+    padding: 9px;
+}
+.king3{
+     display: flex;
+    gap: 300px;
+}
+.kin{
+    color: hsl(0, 0%, 48%) ;
+}
+.king3 h1{
+    color: hsl(0, 0%, 48%) ;
+}
+.set1{
+color: hsl(176, 72%, 28%) ;
+}
+.set2{
+color: hsl(176, 50%, 47%);
+}
+.set3{
+    color: hsl(176, 72%, 28%) ;
+}   
+@media screen and (max-width:950px) {
+    .navitems{
+        display: none;
+    }
+    .ham{
+        display: block;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        justify-content: center;
+
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:85%;
+        text-align: center;
+    }
+    .one h3{
+        font-size: 23px;
+    }
+    .one p{
+        font-size:17px ;
+    }
+    .but3{
+        display:none ;
+    }
+    .but1{
+     padding:10px  ;
+    border:none ;
+    width: 180px;
+    border-radius: 40px;
+    background-color: aqua;
+    }
+    .cat{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .cat1{
+        border-bottom: 1px solid gray;
+        padding-bottom: 20px;
+        border-right:none; 
+    } 
+    .cat2{
+        border-bottom:1px solid gray ;
+        border-right: none;
+        padding-bottom: 20px;
+    }
+    .cat h3{
+        font-size:40px ;
+    }
+    .mist{
+        display: flex;
+        flex-direction: column;
+    }
+    .ten{
+        display: flex;
+        flex-direction: column;
+    }
+    .ten h3{
+        font-size: 30px;
+    }
+    .bamboo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bam{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .boo{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .rose{
+         display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rose1{
+        display: flex;
+        flex-direction: column;
+        gap:20px ;
+    }
+    .rose3{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .king{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .king1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .king3{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .rat{
+        width: 85%;
+    }
+    .mist{
+        width: 85%;
+    }
+}
